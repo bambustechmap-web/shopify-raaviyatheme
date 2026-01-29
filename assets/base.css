@@ -458,7 +458,7 @@ p:empty {
 
 /* Make the actual section background transparent, and instead apply it to a separate sibling element to enable stacking with hero shadow  */
 .shopify-section:not(.header-section) :is(.section, .cart__summary-container) {
-  background: transparent;
+  background: red;
 }
 
 .shopify-section:not(.header-section):has(.section) {
@@ -2251,7 +2251,6 @@ product-price.text-block:is(.h1, .h2, .h3, .h4, .h5, .h6) > *:not(.tax-note) {
   justify-content: space-between;
   align-items: center;
   padding: var(--drawer-header-block-padding) var(--drawer-inline-padding);
-  background-color:red;
 }
 
 .drawer__title {
