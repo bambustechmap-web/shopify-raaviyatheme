@@ -2251,7 +2251,7 @@ product-price.text-block:is(.h1, .h2, .h3, .h4, .h5, .h6) > *:not(.tax-note) {
   justify-content: space-between;
   align-items: center;
   padding: var(--drawer-header-block-padding) var(--drawer-inline-padding);
-  color:red;
+  background-color:red;
 }
 
 .drawer__title {
